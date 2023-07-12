@@ -34,6 +34,10 @@
     --distance-negative: -1.3rem;
 }
 
+/* active */
+a.active{
+  @apply text-cyan-500
+}
 /* for typography  */
 .h1{
   @apply text-[40px] leading-[130%] md:text-[54px] font-semibold md:leading-[74px];
